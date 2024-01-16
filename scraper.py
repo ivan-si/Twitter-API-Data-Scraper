@@ -9,10 +9,10 @@ analyzer = SentimentIntensityAnalyzer()
 import nltk
 nltk.download('punkt')
 
-consumer_key = 'GzzTvTE4TO27FfkVX1YICJhz0'
-consumer_secret = '5nxjEGLEn0tSNPN2pCKdOsJVkxfm2LV9Go2JLATo3354rEh0p7'
-access_token_key = '1467812169110667264-5UWAm0TbEgS9lRpiZvJwLqaO1dvsKi' #same thing as access_token
-access_token_secret = 'UWcqWXHOpIe7sX6IPFvrTBX2oJY0uIsMe4BcHL652gOup'
+consumer_key = ''
+consumer_secret = ''
+access_token_key = '' #same thing as access_token
+access_token_secret = ''
 api = TwitterAPI(consumer_key, consumer_secret, access_token_key, access_token_secret, api_version='2')
 
 # Done  # auth key with Twitter API
